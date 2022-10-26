@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(151.79deg, #0F2B05 4.34%, #000000 87.6%);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 54px
+}
+
+.flex-card {
+    margin-top: 100px;
+    display: flex;
+    aligm-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-image: url('../svg/figurinha.svg');
+    background-repeat: no-repeat;
+    width: 394px;
+    height: 504px;
+    margin-left: 60px
+}
+
+.card > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-left: 100px;
+    border: 4px solid #F7DD43;
+}
+
+.card-user > h2 {
+    margin-left: 80px;
+    margin-top: 100px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-user > p {
+    margin-left: 80px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+}
